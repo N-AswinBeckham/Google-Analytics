@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Google-Analytics/static/css/main.abd64e84.css",
+    "main.js": "/Google-Analytics/static/js/main.ecf906b2.js",
+    "index.html": "/Google-Analytics/index.html",
+    "main.abd64e84.css.map": "/Google-Analytics/static/css/main.abd64e84.css.map",
+    "main.ecf906b2.js.map": "/Google-Analytics/static/js/main.ecf906b2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abd64e84.css",
+    "static/js/main.ecf906b2.js"
+  ]
+}
