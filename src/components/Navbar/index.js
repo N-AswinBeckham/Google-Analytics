@@ -1,7 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Nav, NavLink, NavMenu } from "./NavbarElements";
+import ReactGA from "react-ga";
 
 const Navbar = () => {
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname);
+  }, []);
+
   return (
     <>
       <Nav>

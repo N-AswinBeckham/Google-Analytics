@@ -7,6 +7,10 @@ import About from "./pages/about";
 import Blogs from "./pages/blogs";
 import SignUp from "./pages/signup";
 import Contact from "./pages/contact";
+import ReactGA from "react-ga";
+
+const TRACKING_ID = "G-DWRG7G8R03";
+ReactGA.initialize(TRACKING_ID );
 
 function App() {
   return (
