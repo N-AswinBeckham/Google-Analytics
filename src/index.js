@@ -5,6 +5,7 @@ import ReactGA from "react-ga4";
 
 const TRACKING_ID = "G-DWRG7G8R03";
 ReactGA.initialize(TRACKING_ID);
+ReactGA.send("pageview");
 
 ReactDOM.render(
   <React.StrictMode>
