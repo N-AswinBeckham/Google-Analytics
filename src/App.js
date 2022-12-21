@@ -2,26 +2,22 @@ import React from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./pages";
+import Home from "./pages/home";
 import About from "./pages/about";
 import Blogs from "./pages/blogs";
 import SignUp from "./pages/signup";
 import Contact from "./pages/contact";
-import ReactGA from "react-ga";
-
-const TRACKING_ID = "G-DWRG7G8R03";
-ReactGA.initialize(TRACKING_ID );
 
 function App() {
   return (
     <Router>
       <Navbar />
       <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/blogs" element={<Blogs />} />
-        <Route path="/sign-up" element={<SignUp />} />
+        <Route path="Google-Analytics/home" element={<Home />} />
+        <Route path="Google-Analytics/about" element={<About />} />
+        <Route path="Google-Analytics/contact" element={<Contact />} />
+        <Route path="Google-Analytics/blogs" element={<Blogs />} />
+        <Route path="Google-Analytics/sign-up" element={<SignUp />} />
       </Routes>
     </Router>
   );

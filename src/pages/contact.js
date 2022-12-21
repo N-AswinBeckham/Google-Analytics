@@ -1,8 +1,6 @@
-import React, {useEffect} from "react";
-import ReactGA from "react-ga";
+import React from "react";
 
 const Contact = () => {
-  ReactGA.pageview("/contact");
   return (
     <div>
       <h1>Mail us on feedback@geeksforgeeks.org</h1>
